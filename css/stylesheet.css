@@ -2,6 +2,9 @@
    v2.0 | 20110126
    License: none (public domain)
 */
+
+@import url('font-awesome.min.css');
+
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -57,14 +60,13 @@ body {
 }
 
 a {
-  color: #d5000d;
+  color: #b50004;
 }
 a:hover {
-  color: #c5000c;
+  color: #950003;
 }
 
-header {
-  padding-top: 35px;
+header { padding-top: 35px;
   padding-bottom: 25px;
 }
 
@@ -74,6 +76,9 @@ header h1 {
   font-size: 48px;
   color: #303030;
   line-height: 1.2;
+  margin-left: auto;
+  margin-right: auto;
+  width: 8em;
 }
 
 header h2 {
@@ -90,8 +95,12 @@ header h2 {
 }
 
 .inner {
-  width: 620px;
+  width: 900px;
   margin: 0 auto;
+}
+
+.contentpanel {
+  padding-bottom: 20px;
 }
 
 .TEDBheader {
@@ -116,12 +125,36 @@ header h2 {
   width: 94%;
 }
 
+.infolisttable table {
+/*   width: 100%; */
+}
+
+.infolisttable td {
+  border-style: hidden;
+  text-align: left;
+}
+
+.infolisttable th {
+  text-align: left;
+}
+
 #container .inner img {
   max-width: 100%;
 }
 
+#partonpic img {
+  float: right;
+}
+
 #downloads {
   margin-bottom: 40px;
+}
+
+#topbuttons {
+  margin-bottom: 40px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40em;
 }
 
 a.button {
@@ -172,6 +205,20 @@ a.button span {
   padding-left: 50px;
   display: block;
   height: 23px;
+}
+
+a#topbutton span {
+  padding-left: 0px;
+  padding-right: 10px;
+  text-align: center;
+}
+
+a#topbutton i {
+  font-size: 180%;
+  padding-left: 12px;
+  vertical-align: -2px;
+  text-align: left;
+  float: left;
 }
 
 #download-zip span {
@@ -238,10 +285,10 @@ em {
   font-style: italic;
 }
 
-table {
-  width: 100%;
-  border: 1px solid #ebebeb;
-}
+/* table { */
+/*   width: 100%; */
+/*   border: 1px solid #ebebeb; */
+/* } */
 
 th {
   font-weight: 500;
@@ -337,6 +384,9 @@ footer {
   padding-bottom: 30px;
   font-size: 13px;
   color: #aaa;
+  margin-left: auto;
+  margin-right: auto;
+  width: 45em;
 }
 
 footer a {
