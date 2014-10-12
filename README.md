@@ -1,2 +1,2 @@
-dannyparton.github.io
+danielparton.github.io
 =====================
